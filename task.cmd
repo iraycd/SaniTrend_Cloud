@@ -1,0 +1,1 @@
+PowerShell.exe -NoProfile -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dp0\Scheduled_Task.ps1""' -Verb RunAs}"
